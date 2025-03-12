@@ -49,11 +49,6 @@ module.exports = {
   				'2': 'hsl(var(--chart-2))',
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
-  				'5': 'hsl(var(--chart-5))',
-  				'1': 'hsl(var(--chart-1))',
-  				'2': 'hsl(var(--chart-2))',
-  				'3': 'hsl(var(--chart-3))',
-  				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
   			sidebar: {
@@ -67,13 +62,13 @@ module.exports = {
   				ring: 'hsl(var(--sidebar-ring))'
   			},
   			navy: {
-				'600':'#143586',
+  				'600': '#143586',
   				'700': '#002680',
   				'800': '#020DC3',
   				'900': '#00206f'
   			},
   			orange: {
-				'600':'#ff6000',
+  				'600': '#ff6000',
   				'700': '#ff4242',
   				'800': '#001c5c',
   				'900': '#00206f'
