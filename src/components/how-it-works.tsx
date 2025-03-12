@@ -23,7 +23,7 @@ const steps = [
         number: 3,
         title: "Receive download link in 2-3 hours",
         description:
-            "You will receive your product in 2-3 hours after you've paid for it. You won't have to queue up at a store. Instead, you'll get an email with a download link. Install the program and begin using it immediately.",
+            "You will receive your product in 2-3 hours after you&apos;ve paid for it. You won&apos;t have to queue up at a store. Instead, you&apos;ll get an email with a download link. Install the program and begin using it immediately.",
         image: Image3,
     },
 ]
@@ -60,20 +60,20 @@ export default function HowItWorks() {
                             </div>
                         </div>
                     ))}
-                    <div
-                        className={`flex flex-col lg:flex-row items-center gap-8`}
-                    >
-                        <div className={`w-full lg:w-1/2 lg:pl-8`}>
+                    <div className="flex flex-col lg:flex-row items-center gap-8">
+                        <div className="w-full lg:w-1/2 lg:pl-8">
                             <div className="flex flex-col items-center lg:items-start">
                                 <h3 className="text-2xl font-bold text-navy-900 mb-4">About Gosoftware</h3>
-                                <p className="text-gray-700 max-w-lg text-center lg:text-left">At Gosoftware, we pride ourselves on being experts in our field. Our daily mission is to guide consumers in making informed decisions when it comes to choosing the perfect product, and more importantly, utilising it effectively.
-                                    We go beyond the traditional approach of simply selling a product and walking away. Our philosophy revolves around problem-solving, ensuring that we address and resolve any challenges our customers may encounter. This commitment sets us apart as a distinct player in the market and is the driving force behind our growing base of delighted new customers.</p>
+                                <p className="text-gray-700 max-w-lg text-center lg:text-left">
+                                    At Gosoftware, we pride ourselves on being experts in our field. Our daily mission is to guide consumers in making informed decisions when it comes to choosing the perfect product, and more importantly, utilising it effectively.
+                                    We go beyond the traditional approach of simply selling a product and walking away. Our philosophy revolves around problem-solving, ensuring that we address and resolve any challenges our customers may encounter. This commitment sets us apart as a distinct player in the market and is the driving force behind our growing base of delighted new customers.
+                                </p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src={Image4}
-                                alt='About'
+                                alt="About"
                                 width={520}
                                 height={400}
                                 className="rounded-lg shadow-md border border-gray-200"
@@ -81,20 +81,20 @@ export default function HowItWorks() {
                         </div>
                     </div>
 
-                    <div
-                        className={`flex flex-col lg:flex-row-reverse items-center gap-8`}
-                    >
-                        <div className={`w-full lg:w-1/2 lg:pr-8`}>
+                    <div className="flex flex-col lg:flex-row-reverse items-center gap-8">
+                        <div className="w-full lg:w-1/2 lg:pr-8">
                             <div className="flex flex-col items-center lg:items-start">
                                 <h3 className="text-2xl font-bold text-navy-900 mb-4">Empowering Solutions: Software & Services for Your Success</h3>
-                                <p className="text-gray-700 max-w-lg text-center lg:text-left">When you choose Gosoftware, you're not just getting a product; you're gaining access to a suite of exceptional services. We go above and beyond to ensure that your experience with our software is seamless and hassle-free.
-                                    One of our standout services is our installation and configuration support. Beyond simply delivering the software, we offer an installation service where our experts take care of setting up and configuring your software according to your specific requirements. Whether it's security software or any other type of software solution.</p>
+                                <p className="text-gray-700 max-w-lg text-center lg:text-left">
+                                    When you choose Gosoftware, you&apos;re not just getting a product; you&apos;re gaining access to a suite of exceptional services. We go above and beyond to ensure that your experience with our software is seamless and hassle-free.
+                                    One of our standout services is our installation and configuration support. Beyond simply delivering the software, we offer an installation service where our experts take care of setting up and configuring your software according to your specific requirements. Whether it&apos;s security software or any other type of software solution.
+                                </p>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src={Image5}
-                                alt='About'
+                                alt="About"
                                 width={520}
                                 height={400}
                                 className="rounded-lg shadow-md border border-gray-200"
@@ -106,4 +106,3 @@ export default function HowItWorks() {
         </section>
     )
 }
-

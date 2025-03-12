@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { useState } from "react"
+// import { useState } from "react"
 import logo from "Public/assets/logo.png"
 import windows from "Public/assets/windows.svg"
 import apple from "Public/assets/apple.svg"
@@ -12,7 +12,7 @@ import shop from "Public/assets/shop.svg"
 import antivirus from "Public/assets/antivirus.svg"
 
 export default function Header() {
-  const [cartCount, setCartCount] = useState(0)
+  // const [cartCount, setCartCount] = useState(0)
 
   return (
     <header className="bg-navy-600 text-white py-2 px-4 sticky top-0 z-50">

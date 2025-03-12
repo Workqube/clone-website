@@ -15,12 +15,12 @@ export default function CookieBanner() {
           <div className="text-sm max-w-3xl">
             We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to
             improve user experience, personalize content, and analyze website traffic. For these reasons, we may share
-            your site usage data with our analytics partners. By clicking "Accept," you agree to our website's cookie
-            use as described in our{" "}
+            your site usage data with our analytics partners. By clicking &quot;Accept,&quot; you agree to our website&apos;s
+            cookie use as described in our{" "}
             <Link href="/cookie-policy" className="text-blue-600 hover:underline">
               Cookie Policy
             </Link>
-            . You can change your cookie settings at any time by clicking "Preferences."
+            . You can change your cookie settings at any time by clicking &quot;Preferences.&quot;
           </div>
           <div className="flex gap-2">
             <button
@@ -41,4 +41,3 @@ export default function CookieBanner() {
     </div>
   )
 }
-
